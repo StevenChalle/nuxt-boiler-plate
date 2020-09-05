@@ -11,6 +11,12 @@
       <p class="m-0"><b>Props received :</b> {{ propsExample }}</p>
     </li>
     <li class="list-group-item">
+      <p class="m-0"><b>Hooks :</b> Passed in created ? {{ passedInCreated }} - Passed in mounted ? {{ passedInMounted }}</p>
+    </li>
+    <li class="list-group-item">
+      <p class="m-0"><b>Methods :</b> {{ capitalizeString('mAHaTmA') }}</p>
+    </li>
+    <li class="list-group-item">
       <p class="d-inline m-0 mt-1">
         <b>Computeds :</b>
         <b-input
@@ -37,12 +43,6 @@
         style="width: 200px"
       ></b-input>
       <p class="m-0 mt-2">Reactive property : {{ reactiveProperty }}</p>
-    </li>
-    <li class="list-group-item">
-      <p class="m-0"><b>Hooks :</b> Passed in created ? {{ passedInCreated }} - Passed in mounted ? {{ passedInMounted }}</p>
-    </li>
-    <li class="list-group-item">
-      <p class="m-0"><b>Methods :</b> {{ capitalizeString('mAHaTmA') }}</p>
     </li>
     <li class="list-group-item">
       <p><b>Plugins :</b></p>

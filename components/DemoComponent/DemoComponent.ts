@@ -19,26 +19,6 @@ export default class extends Vue {
   // Plugins
   lodashArray: Array<Number> = this._.times(10)
 
-  // Computeds
-  firstName: string = ''
-  lastName: string = ''
-  computedInput: string = ''
-  get fullName() { return this.firstName + ' ' + this.lastName }
-  set fullName(input) {
-    const words: Array<string> = input.split(' ')
-    this.firstName = words[0]
-    this.lastName = words[1]
-  }
-
-  // Watchers
-  watcherInput: string = ''
-  reactiveProperty: string = 'ôO'
-  @Watch('watcherInput')
-  onPropertyChanged(value: string, oldValue: string) {
-    if (this.reactiveProperty === 'ôO') this.reactiveProperty = 'Oô'
-    else this.reactiveProperty = 'ôO'
-  }
-
   // Hooks
   passedInCreated: boolean = false
   passedInMounted: boolean = false
@@ -60,6 +40,26 @@ export default class extends Vue {
   }
   updateClock(): void {
     this.time = this.moment()
+  }
+
+  // Computeds
+  firstName: string = ''
+  lastName: string = ''
+  computedInput: string = ''
+  get fullName() { return this.firstName + ' ' + this.lastName }
+  set fullName(input) {
+    const words: Array<string> = input.split(' ')
+    this.firstName = words[0]
+    this.lastName = words[1]
+  }
+
+  // Watchers
+  watcherInput: string = ''
+  reactiveProperty: string = 'ôO'
+  @Watch('watcherInput')
+  onPropertyChanged(value: string, oldValue: string) {
+    if (this.reactiveProperty === 'ôO') this.reactiveProperty = 'Oô'
+    else this.reactiveProperty = 'ôO'
   }
 
   // Store
