@@ -16,3 +16,14 @@ $ yarn start
 # generate static project
 $ yarn generate
 ```
+
+## Plugins
+
+- Lodash
+- Moment
+
+## Modules
+
+- Bootstrap Vue
+- I18n
+- Axios
