@@ -81,6 +81,12 @@
       </nuxt-link>
     </li>
     <li class="list-group-item">
+      <p class="m-0"><b>Mixin :</b> X</p>
+    </li>
+    <li class="list-group-item">
+      <p class="m-0"><b>Middleware :</b> X</p>
+    </li>
+    <li class="list-group-item">
       <p class="m-0"><b>API Call :</b> X</p>
     </li>
   </ul>

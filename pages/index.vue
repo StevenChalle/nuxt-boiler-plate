@@ -3,7 +3,7 @@
     <b-col class="text-center">
       <b-row>
         <b-col>
-          <h1>Home</h1>
+          <h1>{{ $t('home') }}</h1>
         </b-col>
       </b-row>
       <b-row class="mt-5">
