@@ -1,0 +1,11 @@
+Features :
+
+- component import
+- shared component
+- props (required, not required)
+- computeds (get, set)
+- hooks (created, mounted)
+- watchers
+- store (fill in, get from)
+- plugins (lodash, moment)
+- i18n

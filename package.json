@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-app-minimal-config",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.0",
+    "bootstrap": "^4.5.2",
+    "bootstrap-vue": "^2.16.0",
+    "lodash": "^4.17.20",
+    "moment": "^2.27.0",
+    "nuxt": "^2.14.0",
+    "nuxt-i18n": "^6.13.12",
+    "vue": "^2.6.12",
+    "vue-class-component": "^7.2.5",
+    "vue-lodash": "^2.1.2",
+    "vue-property-decorator": "^9.0.0",
+    "vuex-module-decorators": "^0.17.0"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.14.4",
+    "@nuxt/typescript-build": "^2.0.3",
+    "@types/lodash": "^4.14.161"
+  }
+}
