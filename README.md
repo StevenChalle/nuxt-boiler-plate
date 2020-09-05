@@ -24,6 +24,6 @@ $ yarn generate
 
 ## Modules
 
+- Axios
 - Bootstrap Vue
 - I18n
-- Axios
